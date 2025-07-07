@@ -1,0 +1,14 @@
+**/__pycache__/*
+**/.ruff_cache/*
+**/.conda/*
+**/logs/*
+**/.env
+**/google/credentials.json
+**/google/token.json
+**/o365_token.txt
+**/directus/database/*
+**/node_modules/
+**/dist/
+**/.parcel-cache/
+.coverage
+htmlcov

@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["S101"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["I001", "F401"]
+
+[tool.coverage.report]
+include = ["src/mtg/engine/**/*.py"] # Include all Python files in the 'your_package_name' directory.
+omit = ["**/__init__.py"]
+show_missing = true # Show missing lines in the report.
+exclude_lines = ["if TYPE_CHECKING:"]

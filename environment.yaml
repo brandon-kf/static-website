@@ -1,0 +1,10 @@
+name: python-hub
+channels:
+  - defaults
+dependencies:
+  - python==3.12.2
+  - ruff
+  - python-dotenv
+  - conda-forge::fastapi
+  - conda-forge::pytest
+  - conda-forge::pytest-cov
