@@ -1,4 +1,4 @@
-### To install
+### To Install
 1. Clone this repository.
 
 2. Create a new conda env.
@@ -11,7 +11,7 @@ conda env create --name static-website --file=environment.yaml
 conda activate static-website
 ```
 
-### To run
+### To Run
 1. Activate the conda env.
 ```bash
 conda activate static-website
